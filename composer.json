@@ -1,0 +1,40 @@
+{
+    "name": "staplegun/twigextensions",
+    "description": "A twig extension",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twigextensions"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/emukupa/twigextensions/twigextensions/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/emukupa/twigextensions/twigextensions/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Staplegun Design, Inc",
+            "homepage": "https://staplegun.us/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "staplegun\\twigextensions\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "twigextensions",
+        "handle": "twigextensions",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/emukupa/twigextensions/twigextensions/master/CHANGELOG.md",
+        "class": "staplegun\\twigextensions\\Twigextensions"
+    }
+}
